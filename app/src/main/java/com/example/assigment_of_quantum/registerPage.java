@@ -51,6 +51,9 @@ public class registerPage extends AppCompatActivity {
                             String id=task.getResult().getUser().getUid();
                             database.getReference().child("User").child(id).setValue(user);
                             Toast.makeText(registerPage.this, "Account create Successfully", Toast.LENGTH_SHORT).show();
+                            Intent intent = new Intent(registerPage.this,MainActivity.class);
+                            startActivity(intent);
+                            finish();
 
                         }
                         else{

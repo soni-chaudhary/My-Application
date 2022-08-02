@@ -172,7 +172,7 @@
 
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/googleSignIn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -181,7 +181,7 @@
                      />
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/facebookSignIn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"

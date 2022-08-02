@@ -11,13 +11,7 @@ public class infoOfUser {
         this.password = password;
     }
 
-//    public  infoOfUser( String name,String image, String date, String info, String data){
-//        this.name= name;
-//        this.image = image;
-//        this.date = date;
-//        this.info = info;
-//        this.data = data;
-//    }
+
     public  infoOfUser(){}
     public infoOfUser(String email,String password){
         this.password = password;
@@ -57,38 +51,4 @@ public class infoOfUser {
     }
 
 
-
-
-
-//    public String getImage() {
-//        return image;
-//    }
-//
-//    public void setImage(String image) {
-//        this.image = image;
-//    }
-//
-//    public String getDate() {
-//        return date;
-//    }
-//
-//    public void setDate(String date) {
-//        this.date = date;
-//    }
-//
-//    public String getInfo() {
-//        return info;
-//    }
-//
-//    public void setInfo(String info) {
-//        this.info = info;
-//    }
-//
-//    public String getData() {
-//        return data;
-//    }
-//
-//    public void setData(String data) {
-//        this.data = data;
-//    }
 }
